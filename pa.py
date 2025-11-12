@@ -52,7 +52,7 @@ menu = st.sidebar.radio("Navegue entre as seções:", [
     "🏠 Página Inicial",
     "🧩 Introdução à Ciência de Dados",
     "📊 Limpeza de Dados",
-	"🖥️IA na Codificação".
+	"🖥️IA na Codificação",
     "🧠 Funções Python",
     "📂 Operações com Listas",
     "⚡ Módulo Avançado Interativo",
@@ -471,6 +471,7 @@ elif menu == "📚Outros cursos":
 	st.title("Recomendação de outros cursos para se aprofundar melhor em ciências de dados (Ou python)📚")
 	st.subheader("Cursos Gratuitos para se aprofundar em python⬇️: ")
 	st.markdown:("CURSO CURSO CURSO CURSO")
+
 
 
 
