@@ -455,21 +455,15 @@ elif menu == "❓ Quiz do Curso":
         else:
             st.success("🎉 Você acertou todas as perguntas!")
 
-# ------------------------------------------------------------
-# --- 6. Quiz ---
-# ------------------------------------------------------------
-elif menu == "❓ Quiz do Curso":
-    st.title("❓ Quiz - Ciência de Dados com Python")
-    st.subheader("Teste seus conhecimentos adquiridos no curso!")
-
-			
+	
 # ------------------------------------------------------------
 # --- 7. recomendação de cursos ---
 # ------------------------------------------------------------
-elif menu == "Outros cursos📚":
+elif menu == "📚Outros cursos":
 	st.title("Recomendação de outros cursos para se aprofundar melhor em ciências de dados (Ou python)📚")
 	st.subheader("Cursos Gratuitos para se aprofundar em python⬇️: ")
 	st.markdown:("CURSO CURSO CURSO CURSO")
+
 
 
 
