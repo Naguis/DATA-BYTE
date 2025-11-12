@@ -52,11 +52,12 @@ menu = st.sidebar.radio("Navegue entre as seções:", [
     "🏠 Página Inicial",
     "🧩 Introdução à Ciência de Dados",
     "📊 Limpeza de Dados",
+	"🖥️IA na Codificação".
     "🧠 Funções Python",
     "📂 Operações com Listas",
     "⚡ Módulo Avançado Interativo",
     "❓ Quiz do Curso",
-	"📚Outros cursos"
+	"📚Outros Cursos"
 ])
 st.sidebar.markdown("---")
 st.sidebar.info("💡 Dica: explore cada módulo em ordem para aproveitar melhor o conteúdo!")
@@ -191,9 +192,16 @@ def saudacao(nome):
     st.write("""
 Aqui, `def` define a função, `nome` é o parâmetro e `return` devolve o resultado.
 """)
+# ------------------------------------------------------------
+# --- 4. Ia na Codificação ---
+# ------------------------------------------------------------
+elif menu == "🖥️IA na Codificação":
+	st.title("🖥️IA na Codificação e Suas Complicações")
+	st.subheader("É confiável usar IAs como chatgpt, Copilot, Gemini e etc. para codificar e ou fazer tarefas de um cientistas de dados?")
+
 
 # ------------------------------------------------------------
-# --- 4. Operações com Listas ---
+# --- 5. Operações com Listas ---
 # ------------------------------------------------------------
 elif menu == "📂 Operações com Listas":
     st.title("📂 Operações com Listas")
@@ -216,7 +224,7 @@ A média é a soma dividida pela quantidade de elementos.
 """)
 
 # ------------------------------------------------------------
-# --- 5. Módulo Avançado Interativo ---
+# --- 6. Módulo Avançado Interativo ---
 # ------------------------------------------------------------
 elif menu == "⚡ Módulo Avançado Interativo":
     st.title("⚡ Módulo Avançado Interativo")
@@ -348,7 +356,7 @@ Isso permite testar ideias e algoritmos rapidamente.
     st.success("🎉 Parabéns! Você concluiu o módulo interativo!")
 
 # ------------------------------------------------------------
-# --- 6. Quiz ---
+# --- 7. Quiz ---
 # ------------------------------------------------------------
 elif menu == "❓ Quiz do Curso":
     st.title("❓ Quiz - Ciência de Dados com Python")
@@ -457,12 +465,13 @@ elif menu == "❓ Quiz do Curso":
 
 	
 # ------------------------------------------------------------
-# --- 7. recomendação de cursos ---
+# --- 8. recomendação de cursos ---
 # ------------------------------------------------------------
 elif menu == "📚Outros cursos":
 	st.title("Recomendação de outros cursos para se aprofundar melhor em ciências de dados (Ou python)📚")
 	st.subheader("Cursos Gratuitos para se aprofundar em python⬇️: ")
 	st.markdown:("CURSO CURSO CURSO CURSO")
+
 
 
 
