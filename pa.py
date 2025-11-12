@@ -198,6 +198,9 @@ Aqui, `def` define a função, `nome` é o parâmetro e `return` devolve o resul
 elif menu == "🖥️IA na Codificação":
 	st.title("🖥️IA na Codificação e Suas Complicações")
 	st.subheader("É confiável usar IAs como chatgpt, Copilot, Gemini e etc. para codificar e ou fazer tarefas de um cientistas de dados?")
+	st.write("""
+As IAs são ótimas em codificar e ajudar a montar linhas de códigos para várias coisas, mas para a área de ciências de dados, pode não ser uma escolha melhor que trabalho manual, já que muito do trabalho de um cientista de dados é a limpeza de dados sujos enviados do cliente, um trabalho que a IA não é muito capaz em fazer. E utilizando ferramentas muito úteis como o Orange e outras, o trabalho manual acaba sendo desnecessário, e é melhor ecologicamente ao poupar uma IA de usar água
+""")
 
 
 # ------------------------------------------------------------
@@ -471,6 +474,7 @@ elif menu == "📚Outros cursos":
 	st.title("Recomendação de outros cursos para se aprofundar melhor em ciências de dados (Ou python)📚")
 	st.subheader("Cursos Gratuitos para se aprofundar em python⬇️: ")
 	st.markdown:("CURSO CURSO CURSO CURSO")
+
 
 
 
