@@ -17,15 +17,6 @@ st.set_page_config(
 # ------------------------------------------------------------
 st.markdown("""
 <style>
-    body {
-        background-color: #f5f5f5;
-    }
-    .stApp {
-        background-color: #ffffff;
-    }
-    h1, h2, h3 {
-        color: #0E1117;
-    }
     .main-title {
         text-align: center;
         color: #1f77b4;
@@ -453,4 +444,5 @@ elif menu == "❓ Quiz do Curso":
                 st.write(f"• {e}")
         else:
             st.success("🎉 Você acertou todas as perguntas!")
+
 
