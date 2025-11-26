@@ -199,7 +199,7 @@ elif menu == "📂 Operações com Listas":
     st.video("https://www.youtube.com/watch?v=ohCDWZgNIU0")
 
     st.markdown("""
-Listas armazenam **múltiplos valores em uma única variável**.
+istas armazenam **múltiplos valores em uma única variável**.
 """)
 
     st.code("""
@@ -453,4 +453,5 @@ elif menu == "❓ Quiz do Curso":
                 st.write(f"• {e}")
         else:
             st.success("🎉 Você acertou todas as perguntas!")
+
 
