@@ -18,7 +18,8 @@ st.set_page_config(
 st.markdown("""
 <style>
     body {
-        background-color: #f5f5f5;
+        background-color: #f5f5f5;   
+        color: #333333;
     }
     .stApp {
         background-color: #ffffff;
@@ -453,4 +454,5 @@ elif menu == "❓ Quiz do Curso":
                 st.write(f"• {e}")
         else:
             st.success("🎉 Você acertou todas as perguntas!")
+
 
